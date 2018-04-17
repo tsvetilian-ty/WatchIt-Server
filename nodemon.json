@@ -1,0 +1,9 @@
+{
+    "env": {
+        "NAME": "Test Server",
+        "PORT": 3002,
+        "DB_CONNECTION_STRING": "mongodb://root:123456@ds135179.mlab.com:35179/watchit",
+        "JWT_SECRET": "secret",
+        "GCLOUD_PROJECT": "watchit_fa181"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "watchit-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tsvetilian Yankov",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0"
+  }
+}
