@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
 // Custom middleware
-const headers = require('./middlewares/headers-config');
+const headers = require('./middlewares/headers-config'); 
 
 // Setup middlewares
 app.disable('x-powered-by');
