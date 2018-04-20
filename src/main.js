@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 
 // Custom routes
 const homeRountes = require('./routes/home');
+const userRoutes = require('./routes/users');
 
 // Custom middleware
 const headers = require('./middlewares/headers-config');
@@ -19,6 +20,9 @@ app.use(bodyParser.json());
 app.use(headers.available);
 
 app.get('/', homeRountes);
+
+// API routes
+app.use('/api/v1/users', userRoutes);
 
 // 404 Handler
 app.use(notFound.notFound);
