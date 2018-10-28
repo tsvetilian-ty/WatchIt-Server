@@ -12,15 +12,6 @@ Shows a list of all devices of a user
 
 **Code** : `200 OK`
 
-**Content example**
-
-```json
-[
-  {[device]},
-  {[device]}
-]
-```
-
 ## Error Response
 
 **Condition** : If token is invalid.
