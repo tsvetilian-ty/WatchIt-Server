@@ -35,7 +35,7 @@ User login route
 ```json
 {
     "username": "tsvetilian",
-    "email": "tsvetilian.ty@gmail.com"
+    "email": "tsvetilian.ty@gmail.com",
     "token": "93144b288eb1fdccbe46d6fc0f241a51766ecd3d"
 }
 ```
@@ -55,7 +55,7 @@ User login route
     }
 }
 ```
-
+# 
 **Condition** : If 'email' or 'password' don't match a user.
 
 **Code** : `422 Unprocessable Entity`
